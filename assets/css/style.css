@@ -1,0 +1,37 @@
+    .navbar-brand {
+        font-family: 'Kristi', cursive;
+        font-size: 32px;
+    }
+    
+    .jumbotron-fluid {
+        background-image: url(../img/flower.jpeg);
+        background-position: center;
+        background-size: cover;
+        color: #f0eee1;
+    }
+    
+    .display-4 {
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .lead {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+    }
+    
+    #aboutme {
+        background-color: #84E4F4;
+        min-height: 20rem;
+        margin-top: -32px;
+    }
+    
+    .media {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    
+    #myPhoto {
+        width: 10rem;
+        height: auto;
+        border-radius: 50%
+    }
