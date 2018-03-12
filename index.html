@@ -1,39 +1,38 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Kristi|Open+Sans|Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kristi|Open+Sans|Pacifico|Permanent+Marker|Rock+Salt" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav id="navbar" class="navbar fixed-bottom navbar-expand-lg navbar-light" style="background-color: #7c81a8">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     			<span class="navbar-toggler-icon"></span>
   			</button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+            <div class="navbar-nav font-weight-bold">
+                <a class="nav-item nav-link" href="#home">Home</a>
                 <a class="nav-item nav-link" href="#aboutme">About Me</a>
                 <a class="nav-item nav-link" href="#projects">Projects</a>
                 <a class="nav-item nav-link" href="#skills">Skills</a>
                 <a class="nav-item nav-link" href="#contact">Contact</a>
             </div>
         </div>
-        <a class="navbar-brand" href="#presentation">Andrea Díaz</a>
+        <a class="navbar-brand" href="#home">by Andrea Díaz</a>
     </nav>
-
-    <section id="presentation">
+    <section id="home">
         <div class="row">
             <div class="col-sm-12 col-md-12	col-lg-12 col-xl-12">
                 <div class="jumbotron jumbotron-fluid">
-                    <div class="container">
+                    <div id="text-home" class="container">
                         <!--h1 class="display-4">Knowledge, creativity, change</h1-->
-                        <h1 class="display-4">Think, Imagine and Create</h1>
-                        <p class="lead">What I stand for</p>
+                        <h1 class="display-3"><span id="think"class="font-weight-bold">Think, </span><span id="imagine" class="font-weight-bold">Imagine & </span><span id="create" class="font-weight-bold">Create</span></h1>
+                        <p class="h3 font-weight-bold">What I stand for...</p>
                     </div>
                 </div>
             </div>
@@ -42,24 +41,198 @@
     <section id="aboutme">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-12	col-lg-12 col-xl-12">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="media">
-                        <img id="myPhoto" class="align-self-center mr-3" src="assets/img/me.jpg" alt="my image">
                         <div class="media-body">
-                            <h2 class="mt-0">About Me</h2>
-                            <p>Hello! I am Andrea and I am Front-End Developer, Organizational Psychologist and graduated in Social Economy.</p>
-                            <p class="mb-0"> I am passionate about problems related to social innovation and human development. In the technological area, I am particularly interested in developing digital solutions that improve the quality of life of people and help
-                                organizations to be more sustainable in social, environmental and economic matters.</p>
+                            <h2 class="display-3 mt-5 mb-4">About Me</h2>
+                            <p>Hello! My name is Andrea and I'm a Front-End Developer, Organizational Psychologist and graduated in Social Economy.</p>
+                            <p class="mb-0"> I'm passionate about social innovation and human development. In the technological area, I'm particularly interested in developing digital solutions that improve the quality of life of people and help organizations to be more
+                                sustainable in social, environmental and economic matters.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="media">
+                        <img id="myPhoto" class="align-self-center rounded mx-auto" src="assets/img/me.jpg" alt="my image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12	col-lg-12 col-xl-12">
+                    <h2 id="titleProjects" class="display-3 text-center">Let's See My Work</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12	col-lg-12 col-xl-12">
+                    <div class="card-deck">
+											  <div class="card">
+                            <img class="card-img-top" src="assets/img/cardify.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Cardify 2.0 <span class=""><i class="fas fa-mobile-alt"></i></span> <span class=""><i class="fas fa-desktop"></i></span> </h5>
+                                <p class="card-text">jQuery plugin that makes easy to add a simple hover effect to your images.</p>
+                            </div>
+														<div class="card-footer">
+																<ul class="nav justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="https://github.com/adgalaz/cardify" target="_blank">Code</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://adgalaz.github.io/cardify/" target="_blank">Demo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/gifsaver.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">GifSaver <span class=""><i class="fas fa-mobile-alt"></i> </span><span class=""><i class="fas fa-desktop"></i></span> </h5>
+                                <p class="card-text">SPA that uses the Giphy API and Firebase.</p>
+                            </div>
+														<div class="card-footer">
+														<ul class="nav justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="https://github.com/adgalaz/gifSaver" target="_blank">Code</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://mthompsonc.github.io/gifSaver/" target="_blank">Demo</a>
+                                    </li>
+                                </ul>
+														</div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/example.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Project Title <span class=""><i class="fas fa-mobile-alt"></i> </span><span class=""><i class="fas fa-desktop"></i></span> </h5>
+                                <p class="card-text">Description</p>
+														</div>													
+														<div class="card-footer">
+                                <ul class="nav justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#" target="_blank">Code</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" target="_blank">Demo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/example.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Project Title <span class=""><i class="fas fa-mobile-alt"></i> </span><span class=""><i class="fas fa-desktop"></i></span> </h5>
+                                <p class="card-text">Description</p>
+														</div>	
+														<div class="card-footer">
+                                <ul class="nav justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#" target="_blank">Code</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" target="_blank">Demo</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12	col-lg-12 col-xl-12">
+                    <h2 id="titleSkills" class="display-3 text-center">Technical Skills</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-2 offset-md-2 col-lg-2 offset-lg-2 col-xl-2 offset-xl-2">
+                    <div class="text-center icon">
+                        <i class="devicon-html5-plain"></i>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-2 col-lg-2  col-xl-2">
+                    <div class="text-center icon">
+                        <i class="devicon-css3-plain"></i>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-2 col-lg-2  col-xl-2 ">
+                    <div class="text-center icon">
+                        <i class="devicon-javascript-plain"></i>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                    <div class="text-center icon">
+                        <i class="devicon-jquery-plain-wordmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-2 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3">
+                    <div class="text-center icon">
+                        <i class="devicon-git-plain"></i>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                    <div class="text-center icon">
+                        <i class="devicon-bootstrap-plain"></i>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                    <div class="text-center icon">
+                        <i class="devicon-sass-original"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12	col-lg-12 col-xl-12">
+                    <h2 id="titleContact" class="display-3 text-center">Get in Touch</h2>
+                    <h5 class="text-center">Would you like to contact me?<br> Feel free to send me a message or see more about my work...</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-2 offset-md-3 col-lg-2 offset-lg-3 col-xl-2 offset-xl-3">
+                    <div class="text-center">
+                        <a class="iconContact" href="mailto:adgalaz@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+                        <p class="font-weight-bold">Mail</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                    <div class="text-center">
+                        <a class="iconContact" href="https://www.linkedin.com/in/adiazgalaz/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <p class="font-weight-bold">LinkedIn</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                    <div class="text-center">
+                        <a class="iconContact" href="https://github.com/adgalaz" target="_blank"><i class="fab fa-github-square"></i></a>
+                        <p class="font-weight-bold">Github</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-2 offset-md-5 col-lg-2 offset-lg-5 col-xl-2 offset-xl-5">
+                    <div class="text-center iconUp">
+                        <a class="iconUp" href="#home"><i class="fas fa-chevron-circle-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
-
 </html>

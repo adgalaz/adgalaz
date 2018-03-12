@@ -1,37 +1,113 @@
-    .navbar-brand {
-        font-family: 'Kristi', cursive;
-        font-size: 32px;
-    }
-    
-    .jumbotron-fluid {
-        background-image: url(../img/flower.jpeg);
-        background-position: center;
-        background-size: cover;
-        color: #f0eee1;
-    }
-    
-    .display-4 {
-        font-family: 'Permanent Marker', cursive;
-    }
-    
-    .lead {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: normal;
-    }
-    
-    #aboutme {
-        background-color: #84E4F4;
-        min-height: 20rem;
-        margin-top: -32px;
-    }
-    
-    .media {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-    }
-    
-    #myPhoto {
-        width: 10rem;
-        height: auto;
-        border-radius: 50%
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.navbar-brand {
+    font-family: 'Kristi', cursive;
+    font-size: 32px;
+    min-width: 100wh;
+}
+
+.jumbotron-fluid {
+    background-image: url(../img/dandelion.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #191441;
+    text-align: right;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#text-home {
+  margin-top: 10rem;
+	text-shadow: 2px 2px #ADA6B0;
+}
+
+#think{
+		font-family: 'Permanent Marker', cursive;
+}
+
+#imagine{
+	font-family: 'Pacifico', cursive;	
+}
+
+#create{
+	font-family: 'Rock Salt', cursive;
+}
+
+#aboutme,
+#projects,
+#skills,
+#contact {
+    width: 100vw;
+    min-height: 100vh;
+    margin-top: -2rem;
+    padding-top: 4rem;
+    color: #3a445d;
+}
+
+#aboutme {
+    background-color: #f8c7c8;
+    /*background-color: #E7FDFD;*/
+    background-image: url(../img/aboutme.png);
+    background-position: center 30%;
+    background-size: cover;
+}
+
+.media {
+    font-size: 20px;
+}
+
+.media-body {
+    margin-left: 3rem;
+}
+
+#myPhoto {
+    width: 20rem;
+    height: auto;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+#projects,
+#contact {
+    background-color: #FCF8F2;
+}
+
+#titleProjects,
+#titleSkills,
+#titleContact {
+    margin-bottom: 3rem;
+}
+
+.card-deck {
+    margin-bottom: 4rem;
+}
+
+#skills {
+    background-color: #f8c7c8;
+}
+
+.icon,
+.iconContact {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+    color: #3a445d;
+}
+
+.iconUp {
+    font-size: 3rem;
+    margin: 3rem 2rem 0;
+    color: #cfd3d6;
+}
+
+.iconContact:hover,
+.iconUp:hover {
+    color: #f8c7c8;
+}
