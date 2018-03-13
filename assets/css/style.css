@@ -25,20 +25,20 @@ body {
 }
 
 #text-home {
-  margin-top: 10rem;
-	text-shadow: 2px 2px #ADA6B0;
+    margin-top: 10rem;
+    text-shadow: 2px 2px #ADA6B0;
 }
 
-#think{
-		font-family: 'Permanent Marker', cursive;
+#think {
+    font-family: 'Permanent Marker', cursive;
 }
 
-#imagine{
-	font-family: 'Pacifico', cursive;	
+#imagine {
+    font-family: 'Pacifico', cursive;
 }
 
-#create{
-	font-family: 'Rock Salt', cursive;
+#create {
+    font-family: 'Rock Salt', cursive;
 }
 
 #aboutme,
@@ -71,7 +71,7 @@ body {
 #myPhoto {
     width: 20rem;
     height: auto;
-    margin-top: 3rem;
+    margin-top: 4rem;
     margin-bottom: 4rem;
 }
 
