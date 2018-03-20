@@ -8,11 +8,17 @@ body {
     position: relative;
 }
 
+.navbar {
+    width: 100%;
+}
+
 .navbar-brand {
     font-family: 'Kristi', cursive;
     font-size: 32px;
-    min-width: 100wh;
 }
+
+
+/*Home*/
 
 .jumbotron-fluid {
     background-image: url(../img/dandelion.jpeg);
@@ -20,12 +26,11 @@ body {
     background-size: cover;
     color: #191441;
     text-align: right;
-    width: 100vw;
-    min-height: 100vh;
+    width: 105vw;
+    height: 100vh;
 }
 
-#text-home {
-    margin-top: 10rem;
+h1 {
     text-shadow: 2px 2px #ADA6B0;
 }
 
@@ -41,53 +46,35 @@ body {
     font-family: 'Rock Salt', cursive;
 }
 
+
+/*Secciones*/
+
 #aboutme,
 #projects,
 #skills,
 #contact {
-    width: 100vw;
+    width: 105vw;
     min-height: 100vh;
-    margin-top: -2rem;
-    padding-top: 4rem;
+    margin-top: -2em;
     color: #3a445d;
 }
 
 #aboutme {
     background-color: #f8c7c8;
-    /*background-color: #E7FDFD;*/
     background-image: url(../img/aboutme.png);
     background-position: center 30%;
     background-size: cover;
 }
 
-.media {
-    font-size: 20px;
-}
-
-.media-body {
-    margin-left: 3rem;
-}
-
 #myPhoto {
-    width: 20rem;
+    width: 80%;
     height: auto;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin: 1em;
 }
 
 #projects,
 #contact {
     background-color: #FCF8F2;
-}
-
-#titleProjects,
-#titleSkills,
-#titleContact {
-    margin-bottom: 3rem;
-}
-
-.card-deck {
-    margin-bottom: 5rem;
 }
 
 #skills {
@@ -96,18 +83,185 @@ body {
 
 .icon,
 .iconContact {
-    font-size: 6rem;
-    margin-bottom: 2rem;
+    font-size: 5em;
     color: #3a445d;
 }
 
 .iconUp {
-    font-size: 3rem;
-    margin: 3rem 2rem 0;
+    font-size: 1.5em;
+    margin: 2em 0;
     color: #cfd3d6;
 }
 
 .iconContact:hover,
 .iconUp:hover {
     color: #f8c7c8;
+}
+
+
+/*Media Queries*/
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 2em;
+        margin: 30vh 10vw;
+    }
+    h2 {
+        font-size: 2em;
+        padding: 0.2em;
+    }
+    h5 {
+        font-size: 1rem;
+        padding: 0.1em;
+    }
+    .text-aboutme {
+        margin-left: 0.5em;
+    }
+    .card {
+        margin: 1em;
+    }
+    #aboutme,
+    #projects,
+    #skills,
+    #contact {
+        padding: 3em 2em;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 2.5em;
+        margin: 30vh 10vw;
+    }
+    h2 {
+        font-size: 2em;
+        padding: 0.2em;
+    }
+    h5 {
+        font-size: 1rem;
+        padding: 0.1em;
+    }
+    .text-aboutme {
+        margin-left: 0.5em;
+    }
+    .card {
+        margin: 1em;
+    }
+    #aboutme,
+    #projects,
+    #skills,
+    #contact {
+        padding: 3em 2em;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 3em;
+        margin: 30vh 10vw;
+    }
+    h2 {
+        font-size: 2em;
+        padding: 0.2em;
+    }
+    h5 {
+        padding: 0.1em;
+    }
+    #myPhoto {
+        margin-top: 3.5em;
+    }
+    .card {
+        margin: 1.5em;
+    }
+    #aboutme,
+    #skills {
+        padding: 6em 2em;
+    }
+    #projects,
+    #contact {
+        padding: 3em 2em;
+    }
+    #skills-row {
+        margin-top: 2em;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        font-size: 3.5em;
+        margin: 25vh 5vw;
+    }
+    h2 {
+        font-size: 3em;
+        padding: 0.5em;
+    }
+    h5 {
+        padding: 0.2em;
+    }
+    .card {
+        margin: 1.5em;
+    }
+    .card-deck {
+        margin-bottom: 1em;
+    }
+    #aboutme {
+        padding: 5em 2em;
+    }
+    #projects,
+    #skills,
+    #contact {
+        padding: 3em 2em;
+    }
+    #skills-row {
+        margin-top: 2em;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 4.5em;
+        margin: 25vh 5vw;
+    }
+    h2 {
+        font-size: 3em;
+        padding: 0.5em;
+    }
+    h5 {
+        padding: 0.2em;
+    }
+    .text-aboutme {
+        font-size: 1.15em;
+    }
+    .card {
+        margin: 1.5em;
+    }
+    .card-deck {
+        margin-bottom: 1em;
+    }
+    #aboutme {
+        padding: 5em 2em;
+    }
+    #projects,
+    #skills,
+    #contact {
+        padding: 3em 2em;
+    }
+    #skills-row {
+        margin-top: 2em;
+    }
 }
